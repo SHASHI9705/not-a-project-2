@@ -3,20 +3,19 @@ import './About.css';
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <h2 className="section-title">About Lovely Skins</h2>
       <p className="section-description">
-        We are a cutting-edge company that uses AI to revolutionize dermatology.
-        Our platform provides personalized skincare recommendations, based on your skin analysis.
+        We are redefining dermatology with AI. Get accurate skin health predictions and personalized skincare recommendations in minutes.
       </p>
       <div className="section-info">
         <div className="info-box">
           <h3>AI Diagnosis</h3>
-          <p>Accurate and personalized skin health analysis using AI.</p>
+          <p>Accurate and fast skin health analysis powered by AI.</p>
         </div>
         <div className="info-box">
-          <h3>Personalized Treatment</h3>
-          <p>Get customized skincare plans tailored to your skin's needs.</p>
+          <h3>Personalized Care</h3>
+          <p>Get a personalized skincare regimen tailored just for you.</p>
         </div>
       </div>
     </section>

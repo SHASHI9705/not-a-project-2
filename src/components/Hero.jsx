@@ -4,7 +4,7 @@ import './Hero.css';
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <motion.div
         className="hero-content"
         initial={{ opacity: 0 }}
@@ -13,7 +13,7 @@ const Hero = () => {
       >
         <h1 className="hero-title">Welcome to Lovely Skins</h1>
         <p className="hero-description">
-          AI-powered dermatology at your fingertips. Let us help you look and feel your best.
+          AI-driven dermatology to keep your skin healthy and glowing.
         </p>
         <motion.button
           className="cta-btn"
