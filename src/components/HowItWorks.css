@@ -1,0 +1,48 @@
+.how-it-works {
+    padding: 100px 0;
+    background-color: #2b2d42;
+    color: white;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #ff6347;
+  }
+  
+  .section-description {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    color: #bbb;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .step {
+    width: 30%;
+    padding: 30px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .step h3 {
+    font-size: 1.8rem;
+    color: #ff6347;
+  }
+  
+  .step p {
+    font-size: 1.2rem;
+    color: #aaa;
+  }
+  
